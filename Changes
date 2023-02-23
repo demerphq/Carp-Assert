@@ -1,5 +1,10 @@
 Revision history for Perl module Carp::Assert
 
+0.22 2023-02-23
+    - Removed shouldn't. As of perl 5.37.9 use of apostrophe
+      as a package separator warns. As of 5.40 it will be removed.
+      Really Schwern, you shouldn't have added it anyway. :-)
+
 0.21 2014-06-25
     - Fixed typos in pod. RT#95017 - thanks Daniel Lintott.
     - Added links to a number of modules in SEE ALSO.
